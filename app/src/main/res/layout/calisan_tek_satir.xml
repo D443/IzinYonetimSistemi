@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Başvuru Tarihi"
+        android:id="@+id/txtBasvuruTarihi"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="İzin Süresi"
+        android:id="@+id/txtIzinSuresi"
+        android:layout_alignBottom="@+id/txtBasvuruTarihi"
+        android:layout_toRightOf="@+id/txtBasvuruTarihi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Durumu"
+        android:id="@+id/txtOnaylanma"
+        android:layout_alignBottom="@+id/txtIzinSuresi"
+        android:layout_toRightOf="@+id/txtIzinSuresi"
+        android:layout_toEndOf="@+id/txtIzinSuresi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Başvuru Detay"
+        android:id="@+id/btnbasvur"
+        android:layout_toRightOf="@+id/txtOnaylanma"
+        android:layout_toEndOf="@+id/txtOnaylanma"
+        android:layout_alignBottom="@+id/txtOnaylanma"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

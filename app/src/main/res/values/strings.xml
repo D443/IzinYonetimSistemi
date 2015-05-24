@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">izinYonetimSistemi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_calisan">Çalışan Menüsü</string>
+    <string name="title_activity_menu_admin">Admin Menüsü</string>
+    <string name="title_activity_menu_yonetim">Yönetim Menüsü</string>
+    <string name="title_activity_admin_calisan_yonet">Çalışan Yönet</string>
+    <string name="title_activity_admin_calisan_guncelle">AdminCalisanGuncelle</string>
+
+
+    <string name="title_activity_positive">PositiveActivity</string>
+    <string name="title_activity_negative">NegativeActivity</string>
+    <string name="positive">Positive Activity</string>
+    <string name="negative">Negative Activity</string>
+    <string name="cancel">Cancel Activity</string>
+
+    <string name="title_activity_admin_calisan_listele">Çalışan Listesi</string>
+    <string name="title_activity_tek_satir">tek_satir</string>
+    <string name="title_activity_admin_proje_ekle">Proje Ekle</string>
+    <string name="title_activity_admin_proje_sil">Proje Sil</string>
+    <string name="title_activity_admin_departman_ekle">Departman Ekle</string>
+    <string name="title_activity_admin_departman_sil">Departman Sil</string>
+    <string name="title_activity_calisan_izin_talep1">İzin Talep Formu 1</string>
+    <string name="title_activity_calisan_izin_talep2">İzin Talep Formu 2</string>
+    <string name="title_activity_calisan_izin_detay">Çalışan İzin Detay</string>
+    <string name="title_activity_yonetim_izin_detay">İzin Detayları</string>
+
+
+</resources>

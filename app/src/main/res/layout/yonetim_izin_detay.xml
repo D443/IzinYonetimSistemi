@@ -1,0 +1,271 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mehmet.izinyonetimsistemi.YonetimIzinDetay"
+    android:background="@drawable/background"
+    >
+
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    >
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Görevi"
+            android:id="@+id/yonetimGorev" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="görev"
+            android:id="@+id/txtYonetimGorev"
+            android:ems="7"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Açıklama"
+            android:id="@+id/yonetimIzinAciklama" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/yonetimTxtIzinAciklama" />
+    </TableRow>
+
+
+
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Türü"
+            android:id="@+id/YonetimIzinTuru" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Türü"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/yonetimTxtIzinTuru" />
+    </TableRow>
+
+
+
+<TableRow
+    android:layout_marginTop="15dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Başvuru Tarihi"
+        android:id="@+id/yonetimBasvuruTarihi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="yonetim"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/yonetimTxtBasvuruTarihi" />
+</TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Başlama Tarihi"
+            android:id="@+id/YonetimBaslamaTarihi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="yonetim"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/yonetimTxtBaslamaTarihi" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Bitiş Tarihi"
+            android:id="@+id/yonetimBitisTarihi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="yonetim"
+            android:id="@+id/yonetimTxtBitisTarihi"
+            android:layout_marginLeft="60dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Süresi"
+            android:id="@+id/yonetimIzinSuresi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/yonetimTxtIzinSuresi"
+            android:text="izinsuresi"
+            android:layout_marginLeft="60dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzni Geçireceği Adres"
+            android:id="@+id/yonetimIzinAdres" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="adres"
+            android:layout_marginLeft="60dp"
+            android:id="@+id/yonetimTxtIzinAdres" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="İzin Sürecinde Yerine Geçecek Personel"
+            android:maxEms="10"
+            android:id="@+id/yonetimIzinPersonel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="izinpersonel"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/yonetimTxtIzinPersonel" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Red Açıklaması"
+            android:id="@+id/yonetimRed" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yonetimTxtRed" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reddet"
+            android:id="@+id/btn_reddet" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kabul Et"
+            android:id="@+id/btn_kabulet" />
+    </TableRow>
+
+
+
+
+
+
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mehmet.izinyonetimsistemi" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Giris"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuCalisan"
+            android:label="@string/title_activity_menu_calisan" >
+        </activity>
+        <activity
+            android:name=".MenuAdmin"
+            android:label="@string/title_activity_menu_admin" >
+        </activity>
+        <activity
+            android:name=".MenuYonetim"
+            android:label="@string/title_activity_menu_yonetim" >
+        </activity>
+
+        <activity
+            android:name=".AdminCalisanEkle"
+            android:label="@string/title_activity_admin_calisan_yonet" >
+        </activity>
+        <activity
+            android:name=".AdminCalisanListele"
+            android:label="@string/title_activity_admin_calisan_listele" >
+        </activity>
+        <activity
+            android:name=".tek_satir"
+            android:label="@string/title_activity_tek_satir" >
+        </activity>
+        <activity
+            android:name=".AdminProjeEkle"
+            android:label="@string/title_activity_admin_proje_ekle" >
+        </activity>
+        <activity
+            android:name=".AdminProjeListele"
+            android:label="@string/title_activity_admin_proje_sil" >
+        </activity>
+        <activity
+            android:name=".AdminDepartmanEkle"
+            android:label="@string/title_activity_admin_departman_ekle" >
+        </activity>
+        <activity
+            android:name=".AdminDepartmanListele"
+            android:label="@string/title_activity_admin_departman_sil" >
+        </activity>
+        <activity
+            android:name=".IzinTalep"
+            android:label="@string/title_activity_calisan_izin_talep1" >
+        </activity>
+        <activity
+            android:name=".CalisanIzinDetay"
+            android:label="@string/title_activity_calisan_izin_detay" >
+        </activity>
+        <activity
+            android:name=".CalisanIzinKontrol"
+            android:label="Çalışan İzin Kontrol" >
+        </activity>
+        <activity
+            android:name=".YonetimIzinDetay"
+            android:label="@string/title_activity_yonetim_izin_detay" >
+        </activity>
+        <activity android:name=".YonetimIzinKontrol"></activity>
+
+    </application>
+
+</manifest>
